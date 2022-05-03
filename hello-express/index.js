@@ -35,6 +35,7 @@ app.get('/friends', (req, res) => {
     htmlData  += `</ul>`;
     res.send(htmlData);
 });
+//go to http://localhost:3000/friends
 
 //7. Showing a friend's Details:
 app.get('/friends/:handle', (req, res)=> {
@@ -70,14 +71,26 @@ app.get('/friends/:handle', (req, res)=> {
 
 //9. Listing our friends as a linked ul/li
 //Modify your "/friends" route so that each friend's name is linked to their detail page
-app.get('/friends', (req, res)=> {
+// app.get('/friends', (req, res)=> {
+//     let htmlData = `<ul>`;
+//     for (let friend of db){
+//         htmlData += `<li>
+//                         <a href="${req.path}${friend.handle}">${friend.name}</a>
+//                     </li>`;
+//     }
+//     htmlData =+ `</ul>`;
+//     res.send(htmlData);
+// });
+
+app.get('/friends', (req, res) => {
+    // let htmlData = ` `;
     let htmlData = `<ul>`;
-    for (let friend of db){
+    for (let friend of db) {
         htmlData += `<li>
                         <a href="${req.path}${friend.handle}">${friend.name}</a>
                     </li>`;
     }
-    htmlData =+ `</ul>`;
+    htmlData += `</ul>`;
     res.send(htmlData);
 });
 
