@@ -1,7 +1,7 @@
 //05/02/22: In-Class Homework Exercise: Build Music Site Application
 
 /**
-Directions:
+ * Directions:
 -----------------
 Create a Dynamic Website in Node
  */
