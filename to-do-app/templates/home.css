@@ -1,0 +1,130 @@
+.container{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    border: 5px solid black;
+    margin-top: 27px;
+}
+/* ::::::::::::::::::HEADER::::::::::::::::::::::::::::::::::::::::: */
+#header-row{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+#header-col{
+    border: 2px solid blue;
+    text-align: center;
+}
+/* ::::::::::::::SEARCH BAR::::::::::::::::::::::::::::::::::::::::::::: */
+
+#search-row{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    height: 103px;
+}
+
+#search-col{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid blue; */
+    background-color: rgb(245, 245, 195);
+    border-radius: 10px;
+
+}
+/* :::::::::::::::INSERT BAR:::::::::::::::::::::::::::::::::::::::::::: */
+
+#insert-row{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    height: 103px;
+}
+
+#insert-col{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid blue; */
+    background-color: rgb(245, 245, 195);
+    border-radius: 10px;
+
+}
+
+/* ::::::::::::::::APPLICATION AND RESULTS::::::::::::::::::::::::::::::::::::::::::: */
+
+#app-and-results{
+    border: 2px solid red;
+    height: fit-content;
+}
+
+#app-col{
+    border: 2px solid blue;
+    height: 430px;
+
+}
+
+#item-wrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* background-color: #84a6c4; */
+    border: 3px solid blue;
+    height: 56px;
+    width: 621px;
+    padding-left: 17px;
+
+    border-radius: 21px;
+    margin-top: 20px;
+}
+
+#item-action-buttons{
+    margin-left: 5px;
+}
+
+#view-btn,
+#update-btn,
+#del-btn{
+    border-radius: 10px;
+}
+
+#results-col{
+    border: 2px solid blue;
+    height: 430px;
+}
+
+#item-title-display{
+    border: 10px green;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    background-color: #9aceaa;
+    height: 56px;
+    width: 621px;
+    padding-left: 17px;
+
+    border-radius: 21px;
+    margin-top: 10px;
+
+}
+
+#item-description-display{
+    border: 10px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9aceaa;
+    height: 329px;
+    width: 621px;
+    padding-left: 17px;
+
+    border-radius: 21px;
+    margin-top: 25px;
+}
+/* ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+
+

@@ -1,0 +1,23 @@
+{
+  "name": "cor-web.-dev-week-13-05-01-22-to-05-07-22-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phantom8528/COR-Web.-Dev-Week-13-05-01-22-to-05-07-22-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phantom8528/COR-Web.-Dev-Week-13-05-01-22-to-05-07-22-/issues"
+  },
+  "homepage": "https://github.com/phantom8528/COR-Web.-Dev-Week-13-05-01-22-to-05-07-22-#readme",
+  "dependencies": {
+    "pg-promise": "^10.11.1"
+  }
+}
