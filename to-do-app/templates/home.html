@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/html" href="/templates/home.css">
+    <title>PEN ToDo App</title>
+  </head>
+  <body>
+    <!-- <h1>Welcome</h1> -->
+    <div class="container">
+      <!-- ::::::::::::::::::HEADER::::::::::::::::::::::::::::::::::::::::: -->
+      <div id="header-row" class="row">
+        <div id="header-col" class="col-10">
+          <h1>This is Your Todo List</h1>
+
+        </div>
+      </div>
+      <!-- ::::::::::::::SEARCH BAR:::::::::::::::::::::::::::::::::::::::::::::  -->
+      <div id="search-row" class="row">
+        <div id="search-col" class="col-10">
+          <!-- Search Bar & Button -->
+          <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
+            <input type="text" class="form-control" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
+          </div>
+        </div>
+      </div>
+      <!-- :::::::::::::::INSERT BAR:::::::::::::::::::::::::::::::::::::::::::: -->
+      <div id="insert-row" class="row">
+        <div id="insert-col" class="col-10">
+
+        </div>
+      </div>
+
+      <!-- ::::::::::::::::APPLICATION AND RESULTS::::::::::::::::::::::::::::::::::::::::::: -->
+      <div id="app-and-results" class="row">
+        <div id="app-col" class="col-6 vertical-scrollable">
+          <!-- TESTING ONLY: Show the items that are in the database -->
+
+          <div id="item-wrapper">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                PLACEHOLDER: Title of Item in DB 1.
+              </label>
+            </div>
+            <!-- item action buttons -->
+            <div id="item-action-buttons">
+              <!-- View Button -->
+              <button id="view-btn" type="button" class="btn btn-outline-primary">View Item</button>
+              <!-- Update Button -->
+              <button id="update-btn" type="button" class="btn btn-outline-success">Update Item</button>
+              <!-- Delete Button -->
+              <button id="del-btn" type="button" class="btn btn-outline-danger">Delete</button>
+            </div>
+
+
+          </div>
+
+          <!-- <div id="item-wrapper">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                PLACEHOLDER: Title of Item in DB 2.
+              </label>
+            </div>
+          </div> -->
+
+          
+
+          <!-- TESTING ONLY: --END-- -->
+
+        </div>
+        <div id="results-col" class="col-6">
+          <!-- TESTING ONLY: Read description assc. with an item that is checked -->
+
+          <div id="item-title-display">PLACEHOLDER: Title of Item</div>
+          <div id="item-description-display">PLACEHOLDER: Description Assc. With item</div>
+
+          <!-- TESTING ONLY: --END-- -->
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
